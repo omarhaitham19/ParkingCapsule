@@ -1,0 +1,276 @@
+*{
+	font-family: 'Ubuntu', sans-serif;;
+}
+body {
+	margin: 0;
+  }
+  
+  
+  header {
+	width: 100%;
+	height: 306px;
+	background-color: #00A3FF;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	
+  }
+  
+  .logohd {
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 10px;
+  margin-top: 5px;
+	color: white;
+  
+  }
+  .header-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 90px;
+  }
+  
+  .header-center h2 {
+    font-size: 28px;
+    font-weight: normal;
+    color: white;
+    margin-bottom: 15px;
+  }
+  .search-form {
+    text-align: center;
+  }
+  
+  .search-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 579px;
+    height: 56px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+}
+  
+  .search-input {
+    width: 579px;
+    height: 56px;
+    padding: 0 15px;
+    font-size: 16px;
+  }
+  
+  .search-button {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    width: 56px;
+    height: 56px;
+    background-color: #00A3FF;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .search-button i {
+    color: #fff;
+  }
+  .menu {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu .submenu {
+    display: none;
+    position: absolute;
+    top: 80%; /* Adjust the top position as per your preference */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.9); 
+    min-width: 120px;
+    padding: 8px;
+    border-radius: 5px;
+    z-index: 1;
+    overflow: visible; /* Allow content overflow to be visible */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
+  .menu.open .submenu {
+    display: block;
+  }
+  
+  .menu .submenu a {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #333;
+  }
+  .menu .submenu-line {
+    display: block;
+    height: 1px;
+    background-color: #ddd;
+    margin: 8px 0;
+  }
+  
+  .menu .submenu a:hover {
+    background-color: #ddd;
+    color: #00A3FF;
+  }
+  
+  .menu a.account-link {
+    display: inline-block;
+    padding: 4px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .menu .submenu a:hover,
+  .menu .account-link:hover {
+    background-color: transparent;
+  }
+  
+  
+  
+  nav {
+	display: flex;
+	gap: 30px;
+	align-items: center;
+	margin-right: 10px;
+	margin-top: 5px;
+  }
+  
+  nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+  }
+  
+  .signup {
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 5px 10px;
+  }
+  
+  .signup::before {
+	
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	border: 1px solid white;
+  }
+  
+  
+  .discover {
+	background-color: #FFF;
+	padding: 50px 0;
+  }
+  .owner {
+	background-color: #fafafa;
+	padding: 50px 0;
+  }
+  
+  .container {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+  flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .discover-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  h2 {
+	color: #00A3FF;
+  }
+  
+  .discover-text img {
+	margin-right: 50px;
+  }
+  
+  .discover-content h2 {
+	font-size: 48px;
+	font-weight: bold;
+	margin-bottom: 20px;
+  }
+  
+  .discover-content p {
+	font-size: 24px;
+	margin-bottom: 30px;
+  }
+  
+  
+  footer {
+    background-color: #00A3FF;
+    height: 235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+  }
+ 
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer img {
+    max-width: 2000px;
+    margin: 0 10px;
+  }
+        .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  
+  .logo img {
+    height: 80%;
+    width: auto;
+  }
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .social img {
+    height: 25px; 
+    width: 25px;
+    margin: 0 auto;
+  }
+  .links {
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 0px;
+  }
+  
+  .links a {
+    display: block;
+  }
+  
+  .links img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }

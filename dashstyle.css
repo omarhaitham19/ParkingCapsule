@@ -1,0 +1,342 @@
+*{
+	font-family: 'Ubuntu', sans-serif;;
+}
+body {
+	margin: 0;
+  }
+  
+  /* header styles */
+  
+  header {
+	width: 100%;
+	height: 306px;
+	background-color: #00A3FF;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	
+  }
+  
+  .logo {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-left: 10px;
+	color: white;
+  }
+  .header-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 90px;
+  }
+  
+  .header-center h2 {
+    font-size: 28px;
+    font-weight: normal;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  .search-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-box input {
+    border: none;
+    border-radius: 5px;
+    background-color: #FFF;
+    font-size: 18px;
+    font-weight: normal;
+    outline: none;
+  }
+  
+  .search-box .fa-search {
+    position: absolute;
+    right: 15px;
+    font-size: 24px;
+    color: #929292;
+    cursor: pointer;
+  }
+  
+  nav {
+	display: flex;
+	gap: 30px;
+	align-items: center;
+	margin-right: 10px;
+	margin-top: 5px;
+  }
+  
+  nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+  }
+  
+
+  .signup::before {
+	
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	border: 1px solid white;
+  }
+
+  .check-btn{
+width: 184px;
+height: 34px;
+margin-left: 4em;
+    margin-top: -1.2em;
+background-color: #FFF;
+color: #00A3FF;
+border: none;
+cursor: pointer;
+  }
+  .hourlyp{
+    position: absolute;
+    left: 12vw;
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+  }
+  .vl {
+    position: absolute;
+    border-left: 1px solid black;
+    height: 137px;
+    margin-left:50vw;
+    margin-top:15vh ;
+  }
+  .vl2 {
+    position: absolute;
+    border-left: 1px solid black;
+    height: 137px;
+    margin-left:50vw;
+  }
+  .Hourly-spots{
+  position: absolute;
+  margin-top: 10vh;
+}
+.spots-title{
+  margin-left: 30vw;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+.spots-num{
+  position: absolute;
+  margin-top: 2vh;
+  margin-left: 33vw;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  color: #00A3FF;
+}
+
+.hourly-add-btn{
+  position: absolute;
+  width: 184px;
+  height: 34px;
+  margin-left: 29vw;
+  margin-top: 20vh;
+  background-color: #FFF;
+  color: #00A3FF;
+  border: 1px solid #00A3FF;
+  border-radius: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+}
+.Hourly-spots img{
+  position: absolute;
+  margin-left: 3em;
+}
+.Hourly-booked{
+  position: absolute;
+  margin-left: 35vw;
+  margin-top: 9.9vh;
+}
+.spots-booked{
+  margin-left: 30vw;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+.num-booked{
+  position: absolute;
+  margin-top: 2vh;
+  margin-left: 33vw;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  color: black;
+}
+
+.hourly-remove-btn{
+  position: absolute;
+  width: 184px;
+  height: 34px;
+  margin-left: 29vw;
+  margin-top: 20vh;
+  background-color: #FFF;
+  color: #00A3FF;
+  border: 1px solid #00A3FF;
+  border-radius: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+}
+.Hourly-booked img{
+  position: absolute;
+  margin-left: 2em;
+}
+.line{
+width: 100%;
+height: 0px;
+
+margin-top: 20em;
+border: 0.5px solid #000000;
+}
+.lower-section{
+
+    margin-top: 5vh;
+}
+.lower-title{
+    margin-left: 12vw;
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+}
+.monthly-add{
+  margin-left: 30vw;
+}
+.add-title{
+  margin-left: 0vw;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+.add-num{
+  position: absolute;
+  margin-top: 2vh;
+  margin-left: 3vw;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  color: #00A3FF;
+}
+.monthly-add-btn{
+  position: absolute;
+  width: 184px;
+  height: 34px;
+  margin-left: -1vw;
+  margin-top: 20vh;
+  background-color: #FFF;
+  color: #00A3FF;
+  border: 1px solid #00A3FF;
+  border-radius: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+}
+.monthly-add img{
+  position: absolute;
+  margin-left: 3em;
+}
+.monthly-remove{
+  margin-left: 65vw;
+  margin-top: -4vh;
+}
+.remove-title{
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+.remove-num{
+  margin-top: 3vh;
+  margin-left: 3vw;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  color: black;
+}
+.remove-btn{
+  position: absolute;
+    margin-top: -1vh;
+    width: 184px;
+    height: 34px;
+    background-color: #FFF;
+    color: #00A3FF;
+    border: 1px solid #00A3FF;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: -1vw;
+}
+.monthly-remove img{
+  position: absolute;
+  margin-left: 2em;
+}
+.settings{
+  margin-bottom: -40vh;
+  margin-left: 48vw;
+  font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+text-decoration-line: underline;
+color: #00A3FF;
+}
+.set-container{
+  position: absolute;
+  bottom: -28em;
+}

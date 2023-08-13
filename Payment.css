@@ -1,0 +1,177 @@
+* {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+header {
+	width: 100%;
+	height: 52px;
+	background-color: #00A3FF;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: white;
+  }
+
+  a {
+    color: white ;
+    text-decoration: none ;
+  }
+
+
+nav {
+	display: flex;
+	gap: 30px;
+	align-items: center;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+
+.signup {
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 5px 10px;
+}
+
+.signup::before {
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	border: 1px solid white;
+}
+
+body {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.form-container {
+	width: 60%;
+	margin-top: 0.5rem;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+.form-title {
+	font-size: 36px;
+	margin-bottom: 2.5rem;
+	font-weight: bold;
+	opacity: 0.8;
+}
+
+.checkout-form {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	width: 100%;
+}
+
+.input-line {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	margin-bottom: 2rem;
+	width: 100%;
+}
+
+label {
+	font-size: 16px;
+	color: grey;
+	margin-bottom: 0.5rem;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 44px;
+    padding: 0 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
+
+
+
+input[type="number"] {
+	width: 100%;
+	height: 44px;
+	padding: 0 10px;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	font-size: 18px;
+}
+
+input[type="text"]::placeholder {
+	font-size: 14px;
+	color: #b9b9b9;
+}
+
+input[type="number"]::placeholder {
+	font-size: 14px;
+	color: #b9b9b9;
+}
+
+.input-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.input-container .input-line {
+	width: 48%;
+}
+
+input[type="submit"] {
+	align-self: center;
+	width: 100%;
+	height: 44px;
+	border-radius: 5px;
+	background-color: #00A3FF;
+	color: #FFF;
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.10);
+	padding: 0 30px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: #00A3FF;
+    outline: 0;
+    box-shadow: 0 0 0 2px #00A3FF;
+}
+
+input[type="button"]:hover {
+	background-color: #0092e7;
+}

@@ -1,0 +1,446 @@
+*{
+	font-family: 'Ubuntu', sans-serif;;
+}
+body {
+	margin: 0;
+  }
+  
+  /* header styles */
+  
+  header {
+	width: 100%;
+	height: 306px;
+	background-color: #00A3FF;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	
+  }
+  
+  .logo {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-left: 10px;
+	color: white;
+  }
+  .header-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 90px;
+  }
+  
+  .header-center h2 {
+    font-size: 28px;
+    font-weight: normal;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  .search-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-box input {
+    border: none;
+    border-radius: 5px;
+    background-color: #FFF;
+    font-size: 18px;
+    font-weight: normal;
+    outline: none;
+    width: 580px;
+  }
+  
+  .search-box .fa-search {
+    position: absolute;
+    right: 15px;
+    font-size: 24px;
+    color: #929292;
+    cursor: pointer;
+  }
+  
+  nav {
+	display: flex;
+	gap: 30px;
+	align-items: center;
+	margin-right: 10px;
+	margin-top: 5px;
+  }
+  
+  nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+  }
+  
+
+  .signup::before {
+	
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	border: 1px solid white;
+  }
+
+  .check-btn{
+width: 184px;
+height: 34px;
+margin-left: 4em;
+    margin-top: -1.2em;
+background-color: #FFF;
+color: #00A3FF;
+border: none;
+cursor: pointer;
+  }
+  .hourlyp{
+    position: absolute;
+    left: 12vw;
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+  }
+  .vl {
+    position: absolute;
+    border-left: 1px solid black;
+    height: 137px;
+    margin-left:53vw;
+    margin-top:15vh ;
+  }
+  .vl2 {
+    position: absolute;
+    border-left: 1px solid black;
+    height: 137px;
+    margin-left:53vw;
+  }
+  .Hourly-spots{
+  position: absolute;
+  margin-top: 10vh;
+  margin-left: -5vw;
+}
+.spots-title{
+  margin-left: 30vw;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+.spots-num{
+  position: absolute;
+  margin-top: 2vh;
+  margin-left: 31.5vw;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  color: #00A3FF;
+}
+
+.hourly-add-btn{
+  position: absolute;
+  width: 184px;
+  height: 34px;
+  margin-left: 29vw;
+  margin-top: 13.8em;
+  background-color: #FFF;
+  color: #00A3FF;
+  border: 1px solid #00A3FF;
+  border-radius: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+}
+.Hourly-spots img{
+  position: absolute;
+  margin-left: 3em;
+}
+.Hourly-booked{
+  position: absolute;
+  margin-left: 35vw;
+  margin-top: 9.9vh;
+}
+.spots-booked{
+  margin-left: 30vw;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+.num-booked{
+  position: absolute;
+  margin-top: 2vh;
+  margin-left: 31.5vw;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  color: black;
+}
+
+.hourly-remove-btn{
+  position: absolute;
+  width: 184px;
+  height: 34px;
+  margin-left: 29vw;
+  margin-top: 13.8em;
+  background-color: #FFF;
+  color: #00A3FF;
+  border: 1px solid #00A3FF;
+  border-radius: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+}
+.Hourly-booked img{
+  position: absolute;
+  margin-left: 2em;
+}
+.line{
+width: 100%;
+height: 0px;
+
+margin-top: 48vh;
+border:  0.2px solid #929292;
+}
+.lower-section{
+
+    margin-top: 5vh;
+}
+.lower-title{
+  margin-top: -3vh;
+    margin-left: 12vw;
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+}
+.monthly-add{
+  margin-left: 25vw;
+}
+.add-title{
+  margin-left: 0vw;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+.add-num{
+  position: absolute;
+  margin-top: 2vh;
+  margin-left: 0.5em;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  color: #00A3FF;
+}
+.monthly-add-btn{
+  position: absolute;
+  width: 184px;
+  height: 34px;
+  margin-left: -1vw;
+  margin-top: 11.5em;
+  background-color: #FFF;
+  color: #00A3FF;
+  border: 1px solid #00A3FF;
+  border-radius: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+}
+.monthly-add img{
+  position: absolute;
+  margin-left: 3em;
+}
+.monthly-remove{
+  margin-left: 65vw;
+  margin-top: -4vh;
+}
+.remove-title{
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+.remove-num{
+  margin-top: 3vh;
+  margin-left: 0.5em;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  color: black;
+}
+.remove-btn{
+  position: absolute;
+    margin-top: -1vh;
+    width: 184px;
+    height: 34px;
+    background-color: #FFF;
+    color: #00A3FF;
+    border: 1px solid #00A3FF;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: -1vw;
+}
+.monthly-remove img{
+  position: absolute;
+  margin-left: 2em;
+}
+.settings{
+  margin-bottom: -40vh;
+  margin-left: 48vw;
+  font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+text-decoration-line: underline;
+color: #00A3FF;
+}
+.set-container{
+  position: absolute;
+  bottom: -49vh;}
+  .change-section{
+    position: absolute;
+    left: 40vw;
+    bottom: -16em;
+  }
+  .current-num{
+    position: absolute;
+    top: -1.5em;
+    left: 8.5em;
+    font-size: 18px;
+  }
+  .price-num{
+    position: absolute;
+    top: -1em;
+    left: 6.4em;
+  }
+  .change-btn{
+    
+    background: #00A3FF;
+    border-radius: 2px;
+    border: none;
+    color: #FFF;
+    height: 34px;
+    width: 184px;
+
+  }
+  .change-input{
+    height: 27px;
+    width: 359px;
+  }
+@media only screen and (max-width: 800px) {
+nav {
+  position: absolute;
+  right:1vh;
+}
+.header-center{
+  position: absolute;
+}
+.check-btn {
+  margin-left: 1vw;
+    margin-top: 1.8em;
+}
+.vl{
+  visibility: hidden;
+  
+}
+.vl2{
+  visibility: hidden;
+}
+.spots-num{
+  
+  margin-left: 36vw;}
+  .num-booked{
+    margin-left: 36vw;
+  }
+.hourlyp{
+  margin-left: 27vw;
+}
+.upper-section{
+  margin-left: -8vw;
+}
+.add-num 
+{
+  margin-left: 7vw;
+}
+.remove-num{
+  margin-left: 7vw;
+}
+.lower-section{
+  margin-left: -8vw;
+}
+.lower-title {
+  margin-left: 46vw;}
+  .monthly-add-btn{
+    margin-top: 11.5em;
+  }
+}
+
+
+@media only screen and (max-width: 1138px) {
+  .check-btn {
+    margin-left: 1vw;
+      margin-top: 1.8em;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .search-box input { 
+   width: 450px;
+  }
+  .monthly-add-btn{
+    margin-top: 11.5em;
+  }
+}
+@media only screen and (max-height: 633px) {
+  .hourly-add-btn {
+    margin-top: 10em;
+  }
+  .hourly-remove-btn{
+    margin-top: 10em;
+  }
+}
