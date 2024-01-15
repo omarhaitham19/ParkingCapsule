@@ -250,7 +250,7 @@ session_start();
       $spotmonth = mysqli_real_escape_string($con, $_POST["spotmonth"]);
       $pricemonth = mysqli_real_escape_string($con, $_POST["pricemonth"]);
 
-      $uploadDir = 'C:\xampp\htdocs\ParkingCapsuleApp/spots/';
+      $uploadDir = 'spots/';
       $targetPath = $uploadDir . $imageName;
     
       if (move_uploaded_file($imageTemp, $targetPath)) {
