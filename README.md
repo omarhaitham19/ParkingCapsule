@@ -1,4 +1,5 @@
-Overview
+Overview:
+
 The Smart Parking Management System is a web application designed to streamline the process of parking space management for both parking owners and customers.
 The system is divided into three main parts:
 
@@ -16,7 +17,8 @@ The system is divided into three main parts:
    -The admin plays a crucial role in managing user accounts, overseeing both customers and parking owners.
    -Admin privileges include the ability to suspend accounts, preventing users from logging in.
 
- Features
+ Features:
+ 
  1- User-Friendly Dashboard: Intuitive dashboards for parking owners and customers to manage their respective information efficiently.
  2- Garage Management: Parking owners can easily update garage details, including pricing, and available spots.
  3- Search and Reservation: Customers can search for parking areas based on location and reserve spots seamlessly.
