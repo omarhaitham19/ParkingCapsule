@@ -1,4 +1,4 @@
-## Overview:
+## Overview
 
 The Smart Parking Management System is a web application designed to streamline the process of parking space management for both parking owners and customers.
 The system is divided into three main parts:
@@ -39,8 +39,13 @@ The system is divided into three main parts:
 
 To get started with the Smart Parking Management System:
 
-1- Clone the repository to your local machine.
+1. Clone the repository.
+2. Set up the database using the provided SQL schema.
 
-2- Register as a parking owner or customer to access the respective dashboards.
+   - Navigate to the `database` folder.
+   - Import the SQL schema file (`parking.sql`) into your MySQL database.
+   - Update the database connection details in `connection.php` with your MySQL credentials.
+
+3. Run the application using a PHP server.
 
    
